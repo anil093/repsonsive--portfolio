@@ -1,3 +1,9 @@
+.clearfix::after {
+  content:"",
+  display:block;
+  clear:both;
+}
+
 .container{
     background-color:lightgrey;
     height:1000px;
@@ -5,7 +11,7 @@
 .Navigation
 
 {
- 
+
  height:90px;
  left:90px;
  top:0px;
@@ -17,8 +23,8 @@
 
 
 
- 
- 
+
+
  .Navigation  h6
  {
      width:200px;
@@ -32,7 +38,7 @@
      font-family: 'Georgia', Times, Times New Roman, serif;
      color: white;
  }
- 
+
  .Navigation h6 a
  {
      text-decoration: none;
@@ -49,19 +55,19 @@
       bottom:82px;
       position: absolute;
       font-family: 'Georgia', Times, Times New Roman, serif;
-     
-      
+
+
       }
       nav ul{
           list-style: none;
       }
-     
+
  nav ul li
  {
      margin: 30px 0 0 60px;
      padding-right:10px;
-    
-     
+
+
  }
  nav ul li a
  {
@@ -71,22 +77,22 @@
      color: grey;
      text-decoration-line: initial;
      margin-right:15px;
-   
- 
+
+
  }
-  
+
  a:active
  {
      color:black;
  }
- 
+
  a:hover{
      color:darkgray;
      background-color: #ddd;
  }
- 
- 
- 
+
+
+
  .hero
  {
      width:961px;
@@ -99,37 +105,37 @@
      border-color: grey;
      margin-bottom:100px;
  }
- 
- 
+
+
  .text{
-   
+
      text-align: center;
      margin: 0 60px 0 0;
      float:right;
     font-family: 'sans-serif';
      letter-spacing: .5px;;
- 
+
  }
- .image 
+ .image
  {
      padding-left: 50px;
      padding-top: 80px;
      float:left;
      width: 33%;
-     
+
  }
  .text1
  {
 
-     
+
      width: 85%;
      margin-top: 80px;
      letter-spacing: 1px;
      line-height: 21px;
      margin-left:50px;
  }
- 
-     
+
+
  .hero h3
  {
      padding-left:50px;
@@ -147,7 +153,7 @@
  {
      line-height: 28.5px;
      font-family: 'Hi Melody', cursive;
- 
+
  }
  .footer1
  {
@@ -159,9 +165,9 @@
      right:1158px;
      bottom:596px;
      background-color:grey;
-    
+
  }
- 
+
  footer h4
  {
      text-align: center;
@@ -174,7 +180,7 @@
      margin-left:100px;
      margin-right:100px;
      background-color:white;
-     
+
  }
  .f1 h4
  {
@@ -189,8 +195,8 @@
      border-bottom: solid;
      border-width:4px;
      border-color:lightgrey;
-   
-     
+
+
  }
  #fname
  {
@@ -203,14 +209,14 @@
         font-family: 'Georgia', Times, Times New Roman, serif;
         padding-top: 10px;
  }
- 
+
  .f1 form p
  {
      padding-left:70px;
      padding-bottom:15px;
  }
- 
- 
+
+
      .button input[type=submit]
      {
      margin-top:18px;
@@ -219,12 +225,12 @@
      color: white;
      padding:7px;
  }
- 
+
  .f1 textarea
  {
      margin-left:70px;
      font-family: 'Georgia', Times, Times New Roman, serif;
-   
+
  }
     /*portfolio*/
   .container1
@@ -235,7 +241,7 @@
       margin:auto;
       margin-bottom:80px;
   }
- 
+
  .container1 h4
  {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -247,12 +253,12 @@
      border-bottom-style:solid;
      border-color: lightgrey;
      border-width: 5px;
-     
+
      margin:0 10px 70px 10px;
-    
+
  }
-     
- 
+
+
  .img-text
  {
     width: 200px;
@@ -267,24 +273,24 @@
 
  .img
  {
-    
+
      float:left;
      width: 33%;
      Margin-left:20px;
  }
  .img1{
-  
+
      float:left;
      width:33%;
  }
 
- 
+
  .img2 {
      float:left;
      width:23%;
-     
+
  }
- 
+
 
    .img3
  {
@@ -293,8 +299,8 @@
      margin-left: 20px;
      margin-top: 30px;
  }
-  
-  .img4 
+
+  .img4
   {
      float:left;
      width:10px;
@@ -305,28 +311,28 @@
  .img1 {
     width: 100%;
 
-    
-    
+
+
 }
- .img 
+ .img
  {
      width: 100%;
-     
+
  }
  .img2
   {
     width: 100%;
-    
+
 }
-.img3 
+.img3
 {
     width: 100%;
-    
+
 }
-.img4 
+.img4
 {
     width: 100%;
-    
+
 }
 
 
@@ -336,28 +342,28 @@
 {
     .img1 {
         width: 20%;
-    
-        
-        
+
+
+
     }
-     .img 
+     .img
      {
          width: 20%;
-         
+
      }
      .img2
       {
         width: 20%;
-        
+
     }
-    .img3 
+    .img3
     {
         width: 20%;
-        
+
     }
-    .img4 
+    .img4
     {
         width: 20%;
-        
+
     }
 }
